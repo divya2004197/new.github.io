@@ -1,0 +1,122 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+h1, h2, h3 {
+    margin: 0.5rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 2rem;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.people-list li {
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.people-list li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.people-list li a:hover {
+    color: #4CAF50;
+}
+
+.bio, .resume, .biodata {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 2px solid #f4f4f4;
+}
+
+.resume-link, .biodata-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.resume-link:hover, .biodata-link:hover {
+    background-color: #45a049;
+}
+
+.biodata {
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    border: 3px solid #4CAF50;
+    color: #2C3E50;
+}
+
+.biodata h2 {
+    color: #2C3E50;
+    text-align: center;
+    font-family: 'Georgia', serif;
+}
+
+.biodata table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.biodata table th, .biodata table td {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+.biodata table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

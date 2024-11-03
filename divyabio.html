@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    .animated-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #00695c;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .animated-button:hover {
+        transform: scale(1.1);
+        background-color: #004d40;
+    }
+    
+    body {
+        font-family: 'Arial', sans-serif;
+        background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+        color: #333;
+        padding: 20px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 32px;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #333;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        background-color:paleturquoise;
+        border-radius: 10px;
+        max-width: 800px;
+        margin: 0 auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-picture {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #333;
+    }
+
+    .info {
+        text-align: left;
+        font-size: 18px;
+        line-height: 1.6;
+        margin-top: 20px;
+    }
+
+    .info b {
+        color: #00695c;
+    }
+</style>
+</head>
+<body>
+<h2>BIODATA</h2>
+<div class="container">
+    <section class="profile-picture">
+        <h3>Profile Picture</h3>
+        <img src="divyaph.jpeg" class="profile-pic" alt="Your Profile Picture" />
+    </section>
+
+    <div class="info">
+        <p><b>Name:</b> Divyashree B M</p>
+        <p><b>DOB:</b> 19/7/2004</p>
+        <p><b>Gender:</b> Female</p>
+        <p><b>Nationality:</b> Indian</p>
+        <p><b>Address:</b> Basthihalli, Pandavapura(T), Mandya(D)</p>
+        <p><b>Father's Name:</b> Mahadevappa B S</p>
+        <p><b>Mother's Name:</b> Mahadevamma</p>
+    </div>
+</div>
+
+<div style="text-align: center; margin-top: 20px;">
+    <a href="index.html">
+        <button class="animated-button" style="padding: 10px 20px; font-size: 16px; background-color:#004d40; color: white; border: none; border-radius: 25px; cursor: pointer;">
+            Go Back to Home Page
+        </button>
+
+</body>
+</html>
